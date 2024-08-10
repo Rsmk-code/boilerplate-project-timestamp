@@ -21,7 +21,7 @@ app.get("/", function (req, res) {
 });
 
 
-app.get("/api/:date", (req,res)=>{
+app.get("/api/:date?", (req,res)=>{
   let dateInput = req.params.date;
 
   let date;
